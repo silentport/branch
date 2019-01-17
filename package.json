@@ -1,0 +1,28 @@
+{
+  "name": "check-git-branch",
+  "version": "1.0.3",
+  "description": "check git current branch",
+  "main": "./branch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "branch": "./bin/branch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silentport/branch.git"
+  },
+  "keywords": [
+    "branch"
+  ],
+  "author": "liyonglong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silentport/branch/issues"
+  },
+  "homepage": "https://github.com/silentport/branch#readme",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}
