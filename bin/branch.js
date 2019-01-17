@@ -9,11 +9,11 @@ const success = chalk.bold.green;
 const exec = util.promisify (require ('child_process').exec);
 
 const groupStart = () => {
-  console.group("----------------------------------------------------------------------------------");
+  console.group("---------------------------------------------------");
 }
 const groupEnd = () => {
   console.groupEnd();
-  log("----------------------------------------------------------------------------------\n");
+  log("---------------------------------------------------\n");
 }
 
 const execCommand = async (cmd, b) => {

@@ -1,6 +1,6 @@
 {
   "name": "check-git-branch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "check git current branch",
   "main": "./branch.js",
   "scripts": {
