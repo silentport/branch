@@ -1,5 +1,9 @@
 ### check-git-branch
+
+[![Build Status](https://travis-ci.org/silentport/branch.svg?branch=master)](https://travis-ci.org/silentport/branch)
+<a href="https://www.npmjs.com/package/check-git-branch"><img alt="undefined" src="https://img.shields.io/npm/v/check-git-branch.svg?style=flat"></a>
 > Ensure that script commands in package. JSON are only allowed to execute on specified git branches
+
 ### usage
 >Maybe you should cooperate with cross-env
 

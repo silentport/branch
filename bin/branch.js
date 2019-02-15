@@ -39,7 +39,8 @@ const execCommand = async (cmd, b) => {
        ${chalk.green(b)} branch, but current branch is ${chalk.blue(current)}`
     );
     groupEnd();
-    process.exit (1);
+    process.exitCode = 1;
+    process.exit ();
   }
   log(success("Success: ") + 'you passed the branch check  √')
   groupEnd();

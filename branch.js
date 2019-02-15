@@ -1,1 +1,1 @@
-require("./bin/branch");
+require ('./bin/branch');
