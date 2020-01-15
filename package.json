@@ -4,7 +4,7 @@
   "description": "check git current branch",
   "main": "./branch.js",
   "scripts": {
-    "test": "node branch.js  master"
+    "test": "node branch.js master"
   },
   "bin": {
     "branch": "./bin/branch.js"
